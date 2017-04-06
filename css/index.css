@@ -1,0 +1,85 @@
+body {
+    font-family: 'Century Gothic', Sans-Serif;
+}
+
+canvas {
+    background-color: #ffffff;
+    margin-bottom: 8px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+}
+
+#game {
+    width: 504px;
+}
+
+#label-title {
+    /*margin: 25px 0px 10px 0px;*/
+    /*font-size: 38px;*/
+    /*font-weight: 400;*/
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#lives {
+    margin-bottom: 10px;
+}
+
+.controls {
+    padding-top: 5px;
+    margin-bottom: 25px;
+    margin-left: -4px;
+}
+
+.controls span {
+    border: 2px solid #ffffff;
+    padding: 4px;
+}
+
+.controls span:hover {
+    cursor: pointer;
+}
+
+.controls div {
+    margin-bottom: 30px;
+}
+
+#about {
+    font-size: 13px;
+}
+
+#label {
+    border: 2px solid #ffffff;
+    padding: 20px;
+    height: 436px;
+    margin-left: 20px;
+    flex-grow: 1;
+    text-align: left;
+}
+
+#label-title {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#label-author {
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+#label-instructions {
+    margin-bottom: 30px;
+}

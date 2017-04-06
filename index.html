@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>256 Farben: A Game</title>
+    <meta name="description"               content="A game based on Gerhard Richter's color studies">
+    <meta name="keywords"                  content="Gerhard,Richter,Farben,Game,256">
+    <meta property="og:url"                content="https://emanuelfeld.github.io/256-farben/">
+    <meta property="og:title"              content="256 Farben: A Game">
+    <meta property="og:description"        content="A game based on Gerhard Richter's color studies">
+    <meta property="og:image"              content="https://emanuelfeld.github.io/256-farben/img/img.png">
+    <meta property="og:image:secure_url"   content="https://emanuelfeld.github.io/256-farben/img/img.png">
+
+    <script src="js/analytics.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="https://emanuelfeld.github.io/256-farben/favicon.ico" />
+    <link rel=stylesheet href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game">
+        <canvas id="screen" width="504" height="480"></canvas>
+        </div>
+        <div id="label">
+            <a href="https://www.sfmoma.org/artwork/FC.643" target="_blank">
+                <div id="label-title">
+                    256 Farben
+                </div>
+            </a>
+            <div id="lives">
+                <span id="life-1">•</span>
+                <span id="life-2">•</span>
+                <span id="life-3">•</span>
+                <span id="life-4">•</span>
+                <span id="life-5">•</span>
+            </div>
+                <div id="label-author">After Gerhard Richter (b. 1932)</div>
+                <div id="label-date"></div>
+                <div id="label-instructions">Press SPACE to begin. Use your RIGHT and LEFT arrow keys to move.</div>
+            <div class="controls">
+                <div class="control"><span id="new-game">start over</span></div>
+                <div class="control"><span id="new-colors">change background</span></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+</html>
