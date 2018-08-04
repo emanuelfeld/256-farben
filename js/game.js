@@ -293,7 +293,7 @@
     randomize: function (sMultiplier = 90, lMultiplier = 60) {
       this.hue = Math.random() * 360
       this.saturation = 10 + Math.random() * sMultiplier
-      this.lightness = 20 + Math.random() * lMultiplier      
+      this.lightness = 20 + Math.random() * lMultiplier
     },
 
     formatCSS: function () {
@@ -305,7 +305,7 @@
       let saturation = this.saturation
       let lightness = (this.lightness + 25) % 100
       if (lightness < 20) {
-        lightness + 20
+        lightness += 20
       }
       return new HSL(hue, saturation, lightness)
     }
