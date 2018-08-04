@@ -343,10 +343,8 @@
 
     document.getElementById('new-game').onclick = function () {
       game.end()
-      setTimeout(function () {
-        game = new Game('screen')
-        randomizeColors()
-      }, 1000)
+      game = new Game('screen')
+      randomizeColors()
     }
   }
 })()
